@@ -23,6 +23,7 @@ class NavDrawer extends Component {
         return (
             <div>
                 <NavToggleButton
+                    open={this.state.open}
                     toggle={this.toggle}
                     width={this.state.width}
                 />
